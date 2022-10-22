@@ -10460,12 +10460,12 @@ a:hover {
   color: #272341 !important;
 }
 .text-color-main {
-  color: #E0C3FC;
-  -webkit-text-fill-color: #E0C3FC;
+  color: #F7CE68;
+  -webkit-text-fill-color: #F7CE68;
 }
 @supports (-webkit-background-clip: text) or (background-clip: text) {
   .text-color-main {
-    background-image: linear-gradient(135deg, #FBAB7E 0%, #E0C3FC 100%);
+    background-image: linear-gradient(135deg, #FBAB7E 0%, #F7CE68 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
@@ -10474,7 +10474,7 @@ a:hover {
 @media (max-width: 37.5em) {
   .text-color-main {
     background-image: none;
-    -webkit-text-fill-color: #E0C3FC;
+    -webkit-text-fill-color: #F7CE68;
   }
 }
 .text-color-main:hover {
@@ -10503,15 +10503,15 @@ a:hover {
 }
 /* Hero Style */
 .cta-btn--hero {
-  color: #E0C3FC;
-  -webkit-text-fill-color: #E0C3FC;
+  color: #F7CE68;
+  -webkit-text-fill-color: #F7CE68;
   border: 2px solid transparent;
-  border-image: linear-gradient(135deg, #FBAB7E 0%, #E0C3FC 100%);
+  border-image: linear-gradient(135deg, #FBAB7E 0%, #F7CE68 100%);
   border-image-slice: 1;
 }
 @supports (-webkit-background-clip: text) or (background-clip: text) {
   .cta-btn--hero {
-    background-image: linear-gradient(135deg, #FBAB7E 0%, #E0C3FC 100%);
+    background-image: linear-gradient(135deg, #FBAB7E 0%, #F7CE68 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
@@ -10519,7 +10519,7 @@ a:hover {
 }
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
   .cta-btn--hero {
-    color: #E0C3FC !important;
+    color: #F7CE68 !important;
   }
   .cta-btn--hero:hover {
     color: #181616 !important;
@@ -10528,12 +10528,12 @@ a:hover {
 @media (max-width: 37.5em) {
   .cta-btn--hero {
     background-image: none;
-    border: 2px solid #E0C3FC;
-    -webkit-text-fill-color: #E0C3FC;
+    border: 2px solid #F7CE68;
+    -webkit-text-fill-color: #F7CE68;
   }
 }
 .cta-btn--hero::after {
-  background-image: linear-gradient(135deg, #FBAB7E 0%, #E0C3FC 100%);
+  background-image: linear-gradient(135deg, #FBAB7E 0%, #F7CE68 100%);
 }
 @media (max-width: 37.5em) {
   .cta-btn--hero::after {
@@ -10546,7 +10546,7 @@ a:hover {
 }
 @media (max-width: 37.5em) {
   .cta-btn--hero:hover {
-    -webkit-text-fill-color: #E0C3FC;
+    -webkit-text-fill-color: #F7CE68;
   }
 }
 .cta-btn--hero:hover::after {
@@ -10561,7 +10561,7 @@ a:hover {
   background: #181616;
 }
 .cta-btn--resume:hover {
-  color: #E0C3FC;
+  color: #F7CE68;
   text-decoration: none;
 }
 .cta-btn--resume:hover::after {
@@ -10642,7 +10642,7 @@ section {
 }
 #about {
   background-color: #FBAB7E;
-  background-image: linear-gradient(135deg, #FBAB7E 0%, #E0C3FC 100%);
+  background-image: linear-gradient(135deg, #FBAB7E 0%, #F7CE68 100%);
   color: #181616;
   height: 100%;
   border-top: 0px;
@@ -10703,7 +10703,7 @@ section {
   }
 }
 #about .about-wrapper__info-text--important {
-  background: #ddbefc;
+  background: #f7cc63;
   display: inline-block;
   font-style: italic;
   padding: 0 0.3rem;
@@ -10720,7 +10720,7 @@ section {
   }
 }
 #contact {
-  background-image: linear-gradient(135deg, #FBAB7E 0%, #E0C3FC 100%);
+  background-image: linear-gradient(135deg, #FBAB7E 0%, #F7CE68 100%);
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   padding: 15rem 0 10rem 0;
@@ -10875,7 +10875,7 @@ section {
   }
 }
 #projects .project-wrapper__text p > a {
-  color: #E0C3FC;
+  color: #F7CE68;
 }
 #projects .project-wrapper__image {
   width: 90%;
