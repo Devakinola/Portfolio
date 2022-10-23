@@ -94,7 +94,7 @@ p {
 .navbar,
 .sticky-top {
   background-color: #181616;
-  position: sticky;
+  position: s;
 }
 
 #me {
