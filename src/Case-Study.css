@@ -1,0 +1,16 @@
+.Project-Banner {
+  height: 70vh;
+  background-image: url(./assets/background.png);
+  background-size: cover;
+}
+.case-container {
+  background-color: aliceblue;
+}
+
+.case-container h1 {
+  color: black;
+}
+
+#Case-Study {
+  padding: 0rem;
+}
