@@ -1,16 +1,33 @@
-.Project-Banner {
-  height: 70vh;
-  background-image: url(background.2eac33cc.png);
-  background-size: cover;
+.Project-Banner img {
+  width: 98vw;
 }
+
 .case-container {
-  background-color: aliceblue;
+  background-color: #181616;
+  padding: 10px 25px;
+  text-align: left;
 }
+
+.prototype {
+  display: flex;
+  margin-left: 25px;
+}
+
 .case-container h1 {
-  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
 }
+
+.case-container p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(240, 248, 255, 0.8);
+}
+
 #Case-Study {
   padding: 0rem;
+  background-color: #181616;
 }
 
 /*# sourceMappingURL=Project 1 (Design).d6bbcd4b.css.map */
