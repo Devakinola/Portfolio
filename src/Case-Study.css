@@ -4,8 +4,8 @@
 
 .case-container {
   background-color: #181616;
-  padding: 10px 25px;
-  text-align: left;
+  padding: 10px 50px;
+  text-align: justify;
 }
 
 .prototype {
@@ -13,12 +13,19 @@
   margin-left: 25px;
 }
 
-.case-container h1 {
+.case-container h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
+  font-weight: 700;
 }
 
-.case-container p {
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.case-container .overview {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -28,4 +35,115 @@
 #Case-Study {
   padding: 0rem;
   background-color: #181616;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(240, 248, 255, 0.8);
+}
+
+.Roles h4 {
+  font-size: large;
+  font-weight: 600;
+}
+
+.Roles ul {
+  font-size: 16px;
+}
+
+figcaption {
+  font-size: larger;
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5px;
+}
+
+.single-images,
+.empathy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.double-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.persona {
+  width: 800px;
+}
+.double-images img {
+  width: 500px;
+  background-color: aliceblue;
+}
+
+@media only screen and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+  figure img {
+    width: 300px;
+  }
+  .double-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .persona {
+    width: 300px;
+  }
+  .double-images img {
+    width: 300px;
+    background-color: aliceblue;
+  }
+  .case-container {
+    background-color: #181616;
+    padding: 10px 20px;
+    text-align: left;
+  }
+  .Roles h4 {
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  .Roles ul {
+    font-size: 14px;
+  }
+  .case-container .overview {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(240, 248, 255, 0.8);
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+  figure img {
+    width: 400px;
+  }
+  .double-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .persona {
+    width: 400px;
+  }
+  .double-images img {
+    width: 400px;
+    background-color: aliceblue;
+  }
+  .case-container {
+    background-color: #181616;
+    padding: 10px 30px;
+    text-align: left;
+  }
 }
