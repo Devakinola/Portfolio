@@ -22,6 +22,7 @@ body {
   background-color: #fbab7e;
   padding: 2px;
   color: #181616;
+  margin-right: 10px;
 }
 
 h1,
@@ -140,6 +141,7 @@ p {
   color: aliceblue;
   text-align: left;
 }
+
 @media only screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .about-wrapper__image img {
     width: 200px;
