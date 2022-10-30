@@ -154,6 +154,11 @@ p {
   text-align: left;
 }
 
+.Project-Image,
+.img-fluid {
+  height: 400px;
+}
+
 @media only screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .about-wrapper__image img {
     width: 200px;
