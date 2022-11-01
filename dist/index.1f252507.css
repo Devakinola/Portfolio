@@ -179,7 +179,11 @@ p {
   .about-wrapper__image img {
     width: 200px;
   }
-
+  .black {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
   .extra,
   .extra p {
     display: flex;
