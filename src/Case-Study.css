@@ -95,7 +95,7 @@ figcaption {
   width: 300px;
 }
 
-@media only screen and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-device-width: 1000px) {
   figure img {
     width: 300px;
   }
@@ -139,7 +139,7 @@ figcaption {
   }
 }
 
-@media only screen and (min-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 800px) {
   figure img {
     width: 400px;
   }
