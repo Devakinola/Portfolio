@@ -1,3 +1,6 @@
+body {
+  background-color: #181616;
+}
 .Project-Banner img {
   width: 98vw;
 }
@@ -6,6 +9,7 @@
   background-color: #181616;
   padding: 10px 50px;
   text-align: justify;
+  margin-bottom: 100px;
 }
 
 .prototype {
@@ -129,6 +133,10 @@ figcaption {
     font-weight: 300;
     color: rgba(240, 248, 255, 0.8);
   }
+
+  .lofi img {
+    width: 150px;
+  }
 }
 
 @media only screen and (min-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -142,6 +150,7 @@ figcaption {
     align-items: center;
     gap: 25px;
   }
+
   .persona {
     width: 400px;
   }

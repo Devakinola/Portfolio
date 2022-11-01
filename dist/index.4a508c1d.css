@@ -10574,7 +10574,7 @@ a:hover {
 }
 .footer {
   background-color: #333333;
-  color: #181616;
+  color: aliceblue;
   padding: 4.8rem 0;
 }
 @media (max-width: 37.5em) {
@@ -10587,7 +10587,7 @@ a:hover {
   font-size: 1.3rem;
 }
 .footer__text a {
-  color: black;
+  color: aliceblue;
   font-size: 1.3rem;
   transition: all 0.4s;
   display: inline-block;
@@ -10613,7 +10613,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #181616;
+  color: aliceblue;
   font-size: 3rem;
   width: 5rem;
   height: 5rem;
@@ -10624,7 +10624,7 @@ a:hover {
   transform: translateY(-2px);
 }
 .back-to-top i {
-  color: #181616;
+  color: aliceblue;
   margin: 1rem 0 1.6rem;
   transition: all 0.2s ease-in;
 }
@@ -10738,6 +10738,7 @@ section {
   }
 }
 #contact .contact-wrapper {
+  color: black;
   margin-top: 3.2rem;
   padding: 0 2rem;
   backface-visibility: hidden;

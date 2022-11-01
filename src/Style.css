@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
 
 body {
   font-family: "Courier New", Courier, monospace;
   margin: 0px;
 }
+
 .Avatar {
   height: 350px;
   width: 350px;
@@ -15,6 +17,15 @@ body {
   font-size: 20px;
   font-weight: 100;
   color: rgba(240, 248, 255, 0.7);
+}
+
+.contact-wrapper__text {
+  color: #181616;
+}
+.Email {
+  color: #181616;
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
 }
 
 .hashtag {
@@ -147,10 +158,15 @@ p {
   height: 400px;
 }
 
+.footer__text {
+  color: aliceblue;
+}
+
 @media only screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .about-wrapper__image img {
     width: 200px;
   }
+
   .jumbotron {
     display: flex;
     flex-direction: column-reverse;
@@ -190,6 +206,13 @@ p {
     font-size: 16px;
   }
 
+  .navigation .nav {
+    display: none;
+  }
+  .img-fluid {
+    width: 200px;
+    height: 220px;
+  }
   .space {
     display: flex;
     justify-content: center;
