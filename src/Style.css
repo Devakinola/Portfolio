@@ -162,9 +162,49 @@ p {
   color: aliceblue;
 }
 
+.Info {
+  margin-top: 0px;
+}
+
+.Experience,
+.Skills {
+  margin-top: 50px;
+  text-align: left;
+}
+.job {
+  text-align: left;
+}
+.extra {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.black {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.black p {
+  background-color: #181616;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
 @media only screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .about-wrapper__image img {
     width: 200px;
+  }
+
+  .extra,
+  .extra p {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 1em;
   }
 
   .jumbotron {
