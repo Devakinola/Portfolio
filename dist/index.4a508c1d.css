@@ -10708,7 +10708,7 @@ section {
   display: inline-block;
   font-style: italic;
   padding: 0 0.3rem;
-  margin: 0;
+  margin: 0.3rem 0;
   line-height: 1.6;
 }
 @media (max-width: 37.5em) {
@@ -10738,7 +10738,6 @@ section {
   }
 }
 #contact .contact-wrapper {
-  color: black;
   margin-top: 3.2rem;
   padding: 0 2rem;
   backface-visibility: hidden;
