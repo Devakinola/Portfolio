@@ -194,6 +194,10 @@ p {
   height: fit-content;
 }
 
+#more {
+  display: none;
+}
+
 @media only screen and (max-device-width: 1000px) {
   .about-wrapper__image img {
     width: 200px;
