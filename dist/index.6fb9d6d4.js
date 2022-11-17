@@ -459,13 +459,11 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"9ZiBv":[function(require,module,exports) {
-const more = document.getElementById("more");
-const showmore = document.getElementById("showmore");
-const showless = document.getElementById("showless");
-function show() {
+const showHide = ()=>{
+    const more = document.getElementById("more");
+    const showmore = document.getElementById("showmore");
     more.style.display = "flex";
-}
-showmore.addEventListener("onclick", show);
+};
 
 },{}]},["gwX2i","9ZiBv"], "9ZiBv", "parcelRequire6aa4")
 

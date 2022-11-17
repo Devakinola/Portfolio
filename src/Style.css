@@ -194,7 +194,8 @@ p {
   height: fit-content;
 }
 
-#more {
+#more,
+#showless {
   display: none;
 }
 

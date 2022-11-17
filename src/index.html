@@ -296,11 +296,25 @@
           </div>
           <!-- /END Project -->
 
-          <button id="showmore" class="hero-cta load-hidden showmore">
-            <a rel="noreferrer" class="cta-btn cta-btn--hero">Show More</a>
-          </button>
-          <p id="showless" class="hero-cta load-hidden showless">
-            <a rel="noreferrer" class="cta-btn cta-btn--hero">Show Less</a>
+          <p class="hero-cta load-hidden">
+            <button
+              rel="noreferrer"
+              id="showmore"
+              onclick="show()"
+              class="cta-btn cta-btn--hero"
+            >
+              Show More
+            </button>
+          </p>
+          <p class="hero-cta load-hidden">
+            <button
+              rel="noreferrer"
+              id="showless"
+              onclick="hide()"
+              class="cta-btn cta-btn--hero"
+            >
+              Show Less
+            </button>
           </p>
         </div>
       </div>
@@ -402,6 +416,6 @@
     <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
-    <script defer type="module" src="Show.js"></script>
+    <script src="Show.js"></script>
   </body>
 </html>
