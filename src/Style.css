@@ -270,4 +270,7 @@ p {
     justify-content: center;
     align-items: center;
   }
+  .pics {
+    width: 100%;
+  }
 }
