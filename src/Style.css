@@ -194,8 +194,11 @@ p {
   height: fit-content;
 }
 
-#more,
 #showless {
+  display: none;
+}
+
+#more {
   display: none;
 }
 
