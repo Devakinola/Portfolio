@@ -467,6 +467,9 @@ var _tiltAnimationDefault = parcelHelpers.interopDefault(_tiltAnimation);
 var _scrollRevealConfig = require("./data/scrollRevealConfig");
 _scrollRevealDefault.default(_scrollRevealConfig.targetElements, _scrollRevealConfig.defaultProps);
 _tiltAnimationDefault.default();
+$(window).load(function() {
+    $(".preloader").fadeOut("slow");
+});
 
 },{"./scripts/scrollReveal":"54rka","./scripts/tiltAnimation":"72kAb","./data/scrollRevealConfig":"5aORV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"54rka":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");

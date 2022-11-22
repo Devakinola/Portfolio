@@ -1,0 +1,1 @@
+{"mappings":"AAAA,CAAC,CAAC,MAAM,EAAE,IAAI,CAAC,QAAQ,GAAI,CAAC;IAC1B,CAAC,CAAC,CAAY,aAAE,OAAO,CAAC,CAAM;AAChC,CAAC","sources":["src/New.js"],"sourcesContent":["$(window).load(function () {\r\n  $(\".preloader\").fadeOut(\"slow\");\r\n});\r\n"],"names":[],"version":3,"file":"index.bdae0aa0.js.map","sourceRoot":"/__parcel_source_root/"}
