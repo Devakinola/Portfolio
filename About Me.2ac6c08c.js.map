@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,EAAEC,QAAQC,MAAK,WACbF,EAAE,cAAcG,QAAQ","sources":["src/New.js"],"sourcesContent":["$(window).load(function () {\n  $(\".preloader\").fadeOut(\"slow\");\n});\n"],"names":["$","window","load","fadeOut"],"version":3,"file":"About Me.2ac6c08c.js.map"}
